@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CHECKOUT</title>
+	<style>
+		html, body{
+			margin: 0;
+			padding: 0;
+			height: 100%;
+			font-family: trebuchet ms, sans-serif;
+		}
+		.container{
+			display: flex;
+			flex-direction: column;
+			height: 100;
+			background-color: Black;
+		}
+		.header{
+			background-color: darkviolet;
+			color: ghostwhite;
+			padding: 20px;
+			text-align: center;
+			font-size: 24px;
+			flex-shrink: 0;
+		}
+		.main{
+			display: flex;
+			flex-grow: 1;
+		}
+		.forms{
+			flex-grow: 1;
+			background-color: white;
+			padding: 20px;
+			box-sizing: border-box;
+			overflow: auto;
+		}
+		.sidebar{
+			width: 20%;
+			background-color: black;
+			color: ghostwhite;
+			padding: 20px;
+			box-sizing: border-box;  
+			border-color: whitesmoke; 
+		}
+		.link{
+        	color: ghostwhite;
+        	text-decoration: none;
+        }
+        .button {
+            background-color: skyblue;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .sidebar img{
+        	width: auto;
+			height: 100px;
+			border-radius: 20%;
+			margin: 50px;
+			margin-bottom: 0px;
+			margin-top: 10px;
+			text-align: center;
+			align-content: center;
+        }
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			CHECKOUT PORTAL
+		</div>
+	</div>
+	<div class="main">
+
+		<div class="sidebar">
+			<a href="index.html"><span class="link"><- Go Back to Products</span></a><br>
+			<img src="MAX-removebg-preview.png"> 
+
+			<img src="PRO-removebg-preview.png">
+
+			<img src="PLUS-removebg-preview.png">
+
+			<img src="16-removebg-preview.png">
+
+			<img src="mba13-spacegray-select-202402-removebg-preview.png">
+
+			<img src="
+			mbp14-spacegray-select-202310-removebg-preview.png">
+
+			<img src="ipad-card-40-ipad-mini-202410-removebg-preview.png">
+
+			<img src="ipad-card-40-ipad-202410-removebg-preview.png">
+
+			<img src="ipad-card-40-air-202405-removebg-preview.png">
+
+			<img src="ipad-card-40-pro-202405-removebg-preview.png">
+
+		</div>
+
+		<div class="forms">
+			 <h1>Delivery Information</h1>
+			 <p>Please provide your delivery details</p>
+	    			<form>
+	    				<label for="Fullname">Name:</label><br>
+                        <input type="text" id="Fullname" name="Fullname" required placeholder="(First Name, Lastname)"><br><br>
+
+                        <label for="Date">Birthday:</label><br>
+		                <input type="date" id="Date" name="Date"><br><br>
+
+                        <label for="Email">Email:</label><br>
+		                <input type="email" id="Email" name="Email" required placeholder="Enter Email"><br><br>
+
+                        <label for="Passowrd">Password:</label><br>
+	 	                <input type="password" id="Password" name="Password" required placeholder="Enter Password"><br><br>
+
+	 	                <label for="Fullname">Mobile Number:</label><br>
+                        <input type="text" id="Fullname" name="Fullname" required placeholder="(+63)"><br><br>
+
+                        <label for="Fullname">Adress:</label><br>
+                        <input type="text" id="Fullname" name="Fullname" required placeholder="(Block, Lot, Unit, Street, Subdivision, Brgy, City, Provice) "><br><br>
+	    				
+	    				<label>Instructions:</label><br>
+                        <textarea id="textarea" name="textarea" rows="4" cols="50" required placeholder="ex. delivery instructions"></textarea><br><br>
+
+                        <label>Are you sure that all details provided are correct?</label> <br>
+		                <input type="checkbox" id="Check" name="Ceck"> I agree <br><br>
+
+		                <label for="select">Payment Method</label>
+		                <select id="select" name="select">
+			            <option value="COD">COD</option>
+			            <option value="E-Wallet">E-Wallet</option>
+			            <option value="Credit Card">Credit Card</option>
+			            <option value="Debit Card">Debit Card</option>
+			            <option value="Bank Transfer">Bank Transfer</option>
+			            </select><br><br>
+			            <button class="button">PAY NOW</button>
+
+			            </form>
+			        </div>
+			    </div>
+			     
+			
+
+</body>
+</html>

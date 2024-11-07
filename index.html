@@ -1,0 +1,276 @@
+<!DOCTYPE html>	
+		
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>APPLE</title>
+	<style>
+		html, body{
+			margin: 0;
+
+			font-family: trebuchet ms, sans-serif;
+		}
+		.container{
+			display: flex;
+			flex-direction: column;
+			height: 100;
+			background-color: Black;
+		}
+		.header{
+			background-color: Black;
+			color: ghostwhite;
+			padding: 20px;
+			text-align: center;
+			font-size: 24px;
+			flex-shrink: 0;
+		}
+		.main{
+			display: flex;
+			flex-grow: 1;
+		}
+		.main-content{
+			flex-grow: 1;
+			background-color: white;
+			padding: 20px;
+			box-sizing: border-box;
+			overflow: auto;
+		}
+		.product{
+            border: 1px solid #ddd;
+            border-color: whitesmoke;
+            margin-bottom: 20px;
+            padding: 1px;
+            text-align: center;
+            background-color: whitesmoke;
+		}
+		.product:hover{
+			background-color: lightgray;
+		}
+		.type{
+            border: 1px solid #ddd;
+            border-color: dark darkviolet;
+            margin-bottom: 20px;
+            padding: 10px;
+            color: ghostwhite;
+            text-align: center;
+            background-color: darkviolet;
+		}
+		input[type="SUBMIT"]:hover{
+			background-color: gray;
+		}
+		input[type="SUBMIT"]{
+			padding: 10px 20px;
+			margin: 10px 5px;
+			background-color: whitesmoke;
+			color: black;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+		}
+		.product img {
+            max-width: 50%;
+            height: auto;
+		}
+		.sidebar{
+			width: 25%;
+			background-color: black;
+			color: ghostwhite;
+			padding: 20px;
+			box-sizing: border-box;
+		}   
+		.img{
+			background-size: cover;
+		}      
+		input[type="text"],
+		input[type="emai"],
+		input[type="password"],
+		input[type="date"],
+		textarea,
+		select{
+			width: 100%;
+			padding: 8px;
+			margin: 10px 0;
+			border: 1px solid #ccc;
+			border-radius: 4px; 
+		}
+		.button {
+            background-color: skyblue;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .Reseller{
+        	margin: 30px;
+        	color: ghostwhite;
+        	text-decoration: none;
+        }
+        .checkout{
+        	margin: 30px;
+        	color: black;
+        	text-decoration: none;
+        }
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			APPLE ONLINE STORE
+		</div>
+	</div>
+	<img src="COVER.jpg">
+
+	    <div class="main">
+	    	<div class="sidebar">
+				<h3>About Apple</h3>
+				<p>Apple Inc. is an American multinational corporation and technology company headquartered and incorporated in Cupertino, California, in Silicon Valley. It is best known for its consumer electronics, software, and services. Founded in 1976 as Apple Computer Company by Steve Jobs, Steve Wozniak and Ronald Wayne, the company was incorporated by Jobs and Wozniak as Apple Computer, Inc. the following year. It was renamed Apple Inc. in 2007 as the company had expanded its focus from computers to consumer electronics. Apple is the largest technology company by revenue, with US$383.29 billion in 2023.</p> <br><br><br>
+
+				<h3>History</h3>
+                <p>The company was founded to produce and market Wozniak's Apple I personal computer. Its second computer, the Apple II, became a best seller as one of the first mass-produced microcomputers. Apple introduced the Lisa in 1983 and the Macintosh in 1984, as some of the first computers to use a graphical user interface and a mouse. By 1985, internal company problems led to Jobs leaving to form NeXT, Inc., and Wozniak withdrawing to other ventures; John Sculley served as long-time CEO for over a decade. In the 1990s, Apple lost considerable market share in the personal computer industry to the lower-priced Wintel duopoly of the Microsoft Windows operating system on Intel-powered PC clones. In 1997, Apple was weeks away from bankruptcy. To resolve its failed operating system strategy, it bought NeXT, effectively bringing Jobs back to the company, who guided Apple back to profitability over the next decade with the introductions of the iMac, iPod, iPhone, and iPad devices to critical acclaim as well as the iTunes Store, launching the "Think different" advertising campaign, and opening the Apple Store retail chain. These moves elevated Apple to consistently be one of the world's most valuable brands since about 2010. Jobs resigned in 2011 for health reasons, and died two months later; he was succeeded as CEO by Tim Cook.</p><br><br><br>
+
+                <h3>Steve Jobs</h3>
+                <p>was an American businessman, inventor, and investor best known for co-founding the technology company Apple Inc. Jobs was also the founder of NeXT and chairman and majority shareholder of Pixar. He was a pioneer of the personal computer revolution of the 1970s and 1980s, along with his early business partner and fellow Apple co-founder Steve Wozniak. Jobs was born in San Francisco in 1955 and adopted shortly afterwards. He attended Reed College in 1972 before withdrawing that same year. In 1974, he traveled through India, seeking enlightenment before later studying Zen Buddhism. He and Wozniak co-founded Apple in 1976 to further develop and sell Wozniak's Apple I personal computer. Together, the duo gained fame and wealth a year later with production and sale of the Apple II, one of the first highly successful mass-produced microcomputers.</p><br><br><br>
+
+                <h3>Contact Us</h3>
+                <form>
+                	 <label for="name">Name:</label><br>
+                     <input type="text" id="name" name="name" required placeholder="Enter Full Name"><br><br>
+
+                     <label for="email">Email:</label><br>
+                     <input type="email" id="email" name="email" required placeholder="Enter Email"><br><br>
+
+                     <label for="message">Message:</label><br>
+                     <textarea id="message" name="message" required placeholder="Enter Message"></textarea><br><br>
+
+                     <input type="SUBMIT" value="Send Message"><br>
+
+                     <ul>
+                     	<li>+63123456789</li>
+                     	<li>+63987654321</li>
+                     	<li>02-123456789</li>
+                     	<li>02-987654321</li>
+                     </ul>
+                </form> <br><br><br>
+
+                <h3>Authorize Reseller's</h3>
+                <ol>
+                	<li><a href="https://powermaccenter.com/pages/view-all-iphone?gad_source=1&gclid=Cj0KCQjwyL24BhCtARIsALo0fSDBLgDKaRH5q3TZGjgCvotJ_UFBi8Th6Wu6b6K4YctnnXrhv6P9o_4aAjZsEALw_wcB"><span class="Reseller">Power Mac Center</span></a></li>
+
+                	<li><a href="https://beyondthebox.ph/"><span class="Reseller">Beyond The Box</span></a></li>
+
+                	<li><a href="https://digitalwalker.ph/"><span class="Reseller">Digital Walker</span></a></li>
+
+                	<li><a href="https://www.istudio.ph/"><span class="Reseller">iStudio</span></a></li>
+
+                	<li><a href="https://www.smsupermalls.com/mall-directory/sm-city-clark/shops/ibook"><span class="Reseller">iBook</span></a></li>
+
+                	<li><a href="https://switch.com.ph/"><span class="Reseller">Switch</span></a></li>
+
+                	<li><a href="https://www.digimap.ph/"><span class="Reseller">Digimap</span></a></li>
+                </ol>
+
+			</div>
+
+	    	<div class="main-content">
+
+                <div class="type">
+	    		<h3>IPHONE 16 SERIES</h3>	
+	    		</div>
+
+
+	    		<div class="product">
+	    		<h3>IPHONE 16 PRO MAX</h3>
+	    		<img src="MAX-removebg-preview.png">
+	    		<p>Price: ₱84,990</p>
+	    		<button class="button">Add to Cart</button>   			
+	    		</div>
+
+	    		<div class="product">
+	    		<h3>IPHONE 16 PRO</h3>
+	    		<img src="PRO-removebg-preview.png">
+	    		<p>Price: ₱69,990</p>
+	    		<button class="button">Add to Cart</button>   			
+	    		</div>
+
+	    		<div class="product">
+	    		<h3>IPHONE 16 PLUS</h3>
+	    		<img src="PLUS-removebg-preview.png">
+	    		<p>Price: ₱62,990 </p>
+	    		<button class="button">Add to Cart</button>  			
+	    		</div>
+
+	    		<div class="product">
+	    		<h3>IPHONE 16</h3>
+	    		<img src="16-removebg-preview.png">
+	    		<p>Price: ₱54,990 </p>
+	    		<button class="button">Add to Cart</button>  			
+	    		</div>
+
+	    		<div class="type">
+	    		<h3>MACBOOK</h3>	
+	    		</div>
+
+	    		<div class="product">
+	    		<h3>MACBOOK AIR-13 M2</h3>
+	    		<img src="mba13-spacegray-select-202402-removebg-preview.png">
+	    		<p>Price: ₱59,990 </p>
+	    		<button class="button">Add to Cart</button>  			
+	    		</div>
+
+	    		<div class="product">
+	    		<h3>MACBOOK PRO-14 M3</h3>
+	    		<img src="mbp14-spacegray-select-202310-removebg-preview.png">
+	    		<p>Price: ₱129,990 </p>
+	    		<button class="button">Add to Cart</button>  			
+	    		</div>
+
+	    		<div class="type">
+	    		<h3>IPAD SERIES</h3>	
+	    		</div>
+
+	    		<div class="product">
+	    		<h3>IPAD MINI</h3>
+	    		<img src="ipad-card-40-ipad-mini-202410-removebg-preview.png">
+	    		<p>Price: ₱34,990 </p>
+	    		<button class="button">Add to Cart</button>  			
+	    		</div>
+
+	    		<div class="product">
+	    		<h3>IPAD</h3>
+	    		<img src="ipad-card-40-ipad-202410-removebg-preview.png">
+	    		<p>Price: ₱24,990 </p>
+	    		<button class="button">Add to Cart</button>  			
+	    		</div>
+
+	    		<div class="product">
+	    		<h3>IPAD AIR</h3>
+	    		<img src="ipad-card-40-air-202405-removebg-preview.png">
+	    		<p>Price: ₱42,990 </p>
+	    		<button class="button">Add to Cart</button>  			
+	    		</div>
+
+	    		<div class="product">
+	    		<h3>IPAD PRO</h3>
+	    		<img src="ipad-card-40-pro-202405-removebg-preview.png">
+	    		<p>Price: ₱72,990 </p>
+	    		<button class="button">Add to Cart</button>  			
+	    		</div>
+
+	    		<div class="delivery">
+	    			<h3>CHECKOUT / DELIVERY</h3><br>
+	    			<h3>YOUR CART</h3>
+	    			<p>You have zero (0) items.</p><br>
+                    <h3>CHECKOUT</h3>
+                    <a href="CHECKOUT.html"><span class="checkout">Proceed to Payment-></span></a>
+	    			
+	    		</div>
+	    		
+	    	</div>
+	    	
+	    </div>
+		
+
+</body>
+</html>
